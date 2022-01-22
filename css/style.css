@@ -32,8 +32,25 @@ ul {
   margin: 0;
 }
 
-.centered-text {
-  text-align: center;
+#name {
+  animation: typing 3s steps(11);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: none;
+  width: 11ch;
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+    border-right: 4px solid black;
+  }
+
+  100% {
+    width: 11ch;
+    border-right: 4px solid black;
+  }
 }
 
 .link:link {
@@ -71,7 +88,7 @@ ul {
 }
 
 #about-me {
-  width: 50%;
+  width: 70%;
   font-size: 1.25rem;
   text-align: center;
 }
