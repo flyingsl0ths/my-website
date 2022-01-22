@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="480" viewBox="0 0 600 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(4.76 0 0 4.76 285.66 254.42)"  >
+<path style="stroke: rgb(172,176,186); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(131,134,141); fill-rule: nonzero; opacity: 1;"  transform=" translate(-45, -41)" d="M 55.2785222 56.3408313 C 51.3476874 61.3645942 45.2375557 64.5921788 38.3756345 64.5921788 C 31.4568191 64.5921788 25.3023114 61.3108505 21.3754218 56.215501 C 10.6371566 55.0276798 2.28426396 45.8997866 2.28426396 34.8156425 C 2.28426396 27.0769445 6.35589452 20.2918241 12.4682429 16.4967409 C 14.7287467 7.0339786 23.2203008 0 33.3502538 0 C 38.667844 0 43.5339584 1.93827732 47.284264 5.14868458 C 51.0345695 1.93827732 55.9006839 0 61.2182741 0 C 73.0769771 0 82.6903553 9.6396345 82.6903553 21.5307263 C 82.6903553 22.0787821 82.6699341 22.6220553 82.629813 23.1598225 C 87.1459866 27.1069477 90 32.9175923 90 39.396648 C 90 51.2877398 80.3866218 60.9273743 68.5279188 60.9273743 C 63.5283115 60.9273743 58.9277995 59.2139774 55.2785222 56.3408313 L 55.2785222 56.3408313 Z M 4.79695431 82 C 7.44623903 82 9.59390863 80.6668591 9.59390863 79.0223464 C 9.59390863 77.3778337 7.44623903 76.0446927 4.79695431 76.0446927 C 2.1476696 76.0446927 0 77.3778337 0 79.0223464 C 0 80.6668591 2.1476696 82 4.79695431 82 Z M 13.7055838 71.9217877 C 18.4995275 71.9217877 22.3857868 69.4606044 22.3857868 66.424581 C 22.3857868 63.3885576 18.4995275 60.9273743 13.7055838 60.9273743 C 8.91163999 60.9273743 5.02538071 63.3885576 5.02538071 66.424581 C 5.02538071 69.4606044 8.91163999 71.9217877 13.7055838 71.9217877 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1.21 0 0 1.21 348.28 205.29)" style=""  >
+		<text xml:space="preserve" font-family="'Open Sans', sans-serif" font-size="96" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-158" y="30.16" style="font-family: 'Playfair Display', serif; font-style: italic; font-weight: bold; fill: rgb(255,255,255); ">Lazy</tspan></text>
+</g>
+</svg>
