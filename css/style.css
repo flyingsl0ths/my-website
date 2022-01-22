@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
 :root {
   --secondary-color-100: #434c5e;
   --secondary-color-200: #3b4252;
@@ -18,6 +20,7 @@
 }
 
 body {
+  font-family: 'Fira Sans', sans-serif;
   background-color: var(--secondary-color-100);
   color: var(--primary-color-900);
   padding: 0;
