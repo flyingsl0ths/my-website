@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
 
 :root {
   --secondary-color-100: #434c5e;
@@ -8,8 +8,9 @@
   --primary-color-900: #eceff4;
   --rounded-corner-radius: 12px;
   --img-rounded-corner-radius: 6px;
-  --svg-icon-size: 40px;
-  --contact-svg-icon-size: 38px;
+  --svg-icon-size: 38px;
+  --projects-svg-icon-size: 34px;
+  --contact-svg-icon-size: 34px;
   --footer-svg-icon-size: 34px;
   --header-font-size: 1.25rem;
 }
@@ -21,7 +22,7 @@
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: var(--secondary-color-100);
   color: var(--primary-color-900);
 }
@@ -106,6 +107,11 @@ footer {
   background-color: #bf616a;
 }
 
+#projects-svg-icon {
+  width: var(--projects-svg-icon-size);
+  height: var(--projects-svg-icon-size);
+}
+
 .project-card {
   width: 100%;
   display: flex;
@@ -118,13 +124,9 @@ footer {
 }
 
 .project-card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: ease-in;
-}
-
-.project-logo {
-  width: var(--project-logo-size);
-  height: var(--project-logo-size);
+  transition: ease-in-out;
+  transition-duration: 0.45s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .line {
@@ -140,6 +142,26 @@ footer {
   height: var(--svg-icon-size);
 }
 
+.centered-icon {
+  vertical-align: middle;
+}
+
+.bounce:hover {
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
 .spacing--right {
   margin-right: 0.4em;
 }
@@ -147,6 +169,11 @@ footer {
 .footer-svg-icon {
   width: var(--footer-svg-icon-size);
   height: var(--footer-svg-icon-size);
+}
+
+#contacts-svg-icon {
+  width: var(--contact-svg-icon-size);
+  height: var(--contact-svg-icon-size);
 }
 
 .contact-svg-icon {
